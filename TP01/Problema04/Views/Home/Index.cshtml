@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @*<h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+    <h1>***Problema 4***</h1>
+    <p>Realizar una aplicación asp.net core que cargue 2 números y haga la división entre ellos.</p>
+    <form asp-action="Problema4" asp-controller="Home" method="post">
+        <label>Ingrese dos numeros: </label>
+        <input type="text" name="a" value="" />
+        <input type="text" name="b" value="" />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+</div>
